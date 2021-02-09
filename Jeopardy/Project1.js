@@ -1,14 +1,17 @@
+
+
+
 let hone = {
-  Jeopardyhone: 'Hyper Text Markup Language',
-  firstquestion: 'What is HTML?',
-  secondquestion: 'What is Tag?',
-  thirdquestion: 'What is ordered list?'
+  0 : 'Hyper Text Markup Language',
+  1 : 'What is HTML?',
+  2 : 'What is Tag?',
+  3 : 'What is ordered list?'
   }
 let htwo = {
-    Jeopardyhtwo: 'allows contents to placed in between',
-    firstquestion:'what are the tags?',
-    secondquestion: 'What is div?',
-    thirdquestion: 'what is syntax?'
+    0: 'allows contents to placed in between',
+    1:'what are the tags?',
+    2: 'What is div?',
+    3: 'what is syntax?'
 }
 let hthree = {
   Jeopardyhthree: 'let you link many different web pages using a single image',
@@ -29,15 +32,19 @@ let hfive = {
   thirdquestion: 'What is the use of alternative text in image mapping?'
 }
 
+const answers = [hone, htwo, hthree, hfour, hfive]
+
+
   
 
 
 $(() => {   
 
-  $('.boxes').on('click', (e) => {
-
+$('.boxes').on('click', (e) => {
 console.log(e.currentTarget.id)
 let obj = e.currentTarget.id
+console.log(obj)
+$('#answers').text(hfive)
 console.log(eval(obj))
     
     
