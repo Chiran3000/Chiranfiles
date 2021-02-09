@@ -1,19 +1,11 @@
 console.log('hello');
 
-
-const toDoList = [];
-
-const htmlRender = (todo) => {
-  const $html = $('#html');
-  const $one = $('<button type="button" class = "boxes">who is who</button>');
+const $renderQuestion = ("#hone", "What is HTML?")
+const $renderAnswer = ('Hyper Text Markup Language')
 
 
-  $html.append($one);
+$renderAnswer.append($renderQuestion);
 
-  $one.on('clikck', (e) => {
-    console.log(e.currentTarget);
-  })
-}
   
 
   
@@ -21,7 +13,7 @@ const htmlRender = (todo) => {
  $(() => {   
 
   $('.boxes').on('click', (e) => {
-    console.log('one')
+    renderAnswer.push(renderQuestion)
   
   
   })

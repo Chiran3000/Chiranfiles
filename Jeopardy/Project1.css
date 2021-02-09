@@ -1,21 +1,28 @@
 body {
-   background-color: rgb(174, 9, 240);
+   background-color: rgb(6, 6, 7);
+   
   }
-.row {
-  display: flex;
+
+h1 {
+  color: rgba(243, 8, 55, 0.89);
 }
 div {
   width: 70px;
-  border: 2px solid rgb(10, 10, 10);
+  border: 2px solid rgb(36, 141, 9);
   padding: 20px;
   margin: 10px;
+  color: chartreuse;
 }
+.boxes {
+  color: yellow;
+}
+
 #html {
   
   font-size: larger;
 }
 #css {
-position: fixed; left: 150px; top: 70px;
+position: absolute; left: 150px; top: 70px;
 font-size: larger;
 }
 #one {
