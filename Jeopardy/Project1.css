@@ -1,0 +1,82 @@
+body {
+   background-color: rgb(174, 9, 240);
+  }
+.row {
+  display: flex;
+}
+div {
+  width: 70px;
+  border: 2px solid rgb(10, 10, 10);
+  padding: 20px;
+  margin: 10px;
+}
+#html {
+  
+  font-size: larger;
+}
+#css {
+position: fixed; left: 150px; top: 70px;
+font-size: larger;
+}
+#one {
+  position: fixed; left: 150px; top: 150px;
+}
+#two {
+  position: fixed; left: 150px; top: 220px;
+}
+#three {
+  position: fixed; left: 150px; top: 290px
+}
+#four {
+  position: fixed; left: 150px; top: 360px;
+}
+#five {
+  position: fixed; left: 150px; top: 430px;
+}
+
+#js {
+  position: fixed; left: 300px; top: 70px;
+  font-size: larger;
+  
+}
+
+#jone {
+  position: fixed; left: 300px; top: 150px;
+}
+#jtwo {
+  position: fixed; left: 300px; top: 220px;
+}
+#jthree {
+  position: fixed; left: 300px; top: 290px;
+}
+
+#jfour {
+  position: fixed; left: 300px; top: 360px;
+}
+
+#jfive {
+  position: fixed; left: 300px; top: 430px;
+}
+
+#found {
+  position: fixed; left: 450px; top: 70px;
+  font-size: larger;
+}
+
+#fone {
+  position: fixed; left: 450px; top: 150px;
+}
+#ftwo {
+  position: fixed; left: 450px; top: 220px;
+}
+#fthree {
+  position: fixed; left: 450px; top: 290px;
+}
+
+#ffour {
+  position: fixed; left: 450px; top: 360px;
+}
+
+#ffive {
+  position: fixed; left: 450px; top: 430px;
+}
