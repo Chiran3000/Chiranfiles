@@ -1,21 +1,24 @@
 console.log('hello');
 
-const $renderQuestion = ("#hone", "What is HTML?")
-const $renderAnswer = ('Hyper Text Markup Language')
-
-
-$renderAnswer.append($renderQuestion);
+let hone = {
+  Jeopardyhone: 'Hyper Text Markup Language',
+  firstquestion: 'What is HTML?',
+  secondquestion: 'What is What?',
+  thirdquestion: 'Who?'
+  }
 
   
 
-  
-  
- $(() => {   
+
+$(() => {   
 
   $('.boxes').on('click', (e) => {
-    renderAnswer.push(renderQuestion)
-  
-  
+
+console.log(e.currentTarget.id)
+let obj = e.currentTarget.id
+console.log(obj)
+    
+    
   })
 })
 
