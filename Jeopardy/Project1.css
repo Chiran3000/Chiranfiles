@@ -25,6 +25,12 @@ div {
   position: fixed; top: 520px;
   width: 200px;
   height: 200px;
+}
+#question {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: fixed; left: 300px; top: 520px;
+  width: 200px;
+  height: 200px;
 
 }
 
