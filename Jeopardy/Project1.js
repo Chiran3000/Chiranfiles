@@ -4,9 +4,8 @@
 const questions = {
   hone: {
     answer1:'Hyper Text Markup Languange',
-    question1: ['What is HTML?', 'what is tag?', 'what is ordered list?']
-    question2 : 'What is Tag?',
-    question3 : 'What is ordered list?'
+    question1: ['[1].What is HTML?' + '[2].What is tag?' + '[3].What is an ordered list?']
+    
   },
 
 htwo: {
@@ -38,9 +37,6 @@ hfour:  {
 //const answers = [hone, htwo, hthree, hfour, hfive]
 
 
-  
-
-
 $(() => {   
 
 $('.boxes').on('click', (e) => {
@@ -48,10 +44,9 @@ $('.boxes').on('click', (e) => {
 let obj = e.currentTarget.id
 //$('#answers').eval(hone)
 $('#answers').text(eval(questions[obj]).answer1)
+$('#question').text(eval(questions[obj]).question1)
+})
 
-
-}
-)
 })
 
  
