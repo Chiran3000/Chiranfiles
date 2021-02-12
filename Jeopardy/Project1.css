@@ -1,6 +1,6 @@
 body {
    background-color: rgb(6, 6, 7);
-   color: blue;
+   color: yellow;
    
   }
 
@@ -119,12 +119,15 @@ font-size: larger;
   position: fixed; left: 450px; top: 430px;
 }
 
-button {
-  position: fixed; left: 630px; top: 100;
-  margin-top: 20px;
-  line-height: 60px;
+h2 {
+  position: fixed; left: 150px; top: 500px;
+  margin-top: 10px;
+  font-size: small;
   font-weight: bold;
+  font-style: italic;
+  font-variant: small-caps;
   
-  background:yellow;
+  
+  background:rgb(6, 6, 7)
   border: none;
 }

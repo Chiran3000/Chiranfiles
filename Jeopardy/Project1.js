@@ -56,11 +56,22 @@ three: {
 },
 four: {
   answer1: 'Mississippi River',
-  question1:[ '[1]River of USA' + '[2]River of Egypt' + '[3]River of Thailand']
+  question1:[ '[1]River of USA'+'[2]River of Egypt' + '[3]River of Thailand']
 },
 five: {
   answer1: 'Nepal type of Government',
-  question1: ['[1]Republic Democarcy' + '[2]Monarchy' + '[3]Totalitarianism'] 
+  question1: ['[1]Republic Democarcy' +'          '+'[2]Monarchy' +'            ' +'[3]Totalitarianism'] 
+},
+jone: {
+  answer1: 'Spermology is the study of',
+  question1: ['[1]What is seed?'+ '[2]What is Leaf?' + '[3]What is Pollen grain?']
+},
+jtwo: {
+  answer1:'Animal without red blood cell',
+  question1:['[1]What is EarthWorm?'+ '[2]What is Frog?'+ '[3]What is Snake?']
+},
+jthree: {
+  answer1: ''
 }
 }
 //const answers = [hone, htwo, hthree, hfour, hfive]
