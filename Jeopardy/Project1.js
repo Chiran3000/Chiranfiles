@@ -1,5 +1,5 @@
 
-/*
+
 document.addEventListener('keydown', (event) => {
   if (event.key == '1') {
     alert('That is Correct!')
@@ -9,7 +9,7 @@ document.addEventListener('keydown', (event) => {
   });
 
   
-*/
+
 
 
 
@@ -71,9 +71,40 @@ jtwo: {
   question1:['[1]What is EarthWorm?'+ '[2]What is Frog?'+ '[3]What is Snake?']
 },
 jthree: {
-  answer1: ''
+  answer1: 'Stomata',
+  question1: ['[1]Where does exchange of gases takes place' + '[2]Where is Chylomicrons?'+ '[3]Where does Photo Sythesis takes places?']
+},
+jfour: {
+  answer1: 'Nuclear Membrane is Absent in',
+  question1: ['[1]What is Volvox?' + '[2]What is Agaricus?' + '[3]What is Nostoc?'] 
+},
+jfive: {
+  answer1: 'Botany is also Know as',
+  question1: ['[1]What is Phytology?' + '[2]What is Pedelogy?' + '[3]What is Plantophyta?']
+},
+fone: {
+  answer1: 'Spermology is the study of',
+  question1: ['[1]What is seed?'+ '[2]What is Leaf?' + '[3]What is Pollen grain?']
+},
+ftwo: {
+  answer1:'Animal without red blood cell',
+  question1:['[1]What is EarthWorm?'+ '[2]What is Frog?'+ '[3]What is Snake?']
+},
+fthree: {
+  answer1: 'Stomata',
+  question1: ['[1]Where does exchange of gases takes place' + '[2]Where is Chylomicrons?'+ '[3]Where does Photo Sythesis takes places?']
+},
+ffour: {
+  answer1: 'Nuclear Membrane is Absent in',
+  question1: ['[1]What is Volvox?' + '[2]What is Agaricus?' + '[3]What is Nostoc?'] 
+},
+ffive: {
+  answer1: 'Botany is also Know as',
+  question1: ['[1]What is Phytology?' + '[2]What is Pedelogy?' + '[3]What is Plantophyta?']
 }
 }
+
+
 //const answers = [hone, htwo, hthree, hfour, hfive]
 
 
